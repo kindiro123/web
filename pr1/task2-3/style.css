@@ -1,0 +1,64 @@
+ body{
+ 	width: 400px;
+ 	margin: 0 auto;
+ 	line-height: 1.5;
+ }
+
+ h1 {
+       font-size: 36px;
+       text-align: center;
+ }
+
+  h2 {
+        font-size: 24px;
+        text-align: center;
+ }
+
+ p{
+ 	font-size: 16px;
+ 	margin-top: 0px;
+ 	margin-bottom: 0px;
+ 	text-align: left;
+ }
+
+ .epigraph{
+ 	font-style: italic;
+ 	text-align: right;
+ }
+
+  .name{
+ 	font-style: italic;
+ 	text-align: right;
+ }
+
+  .date{
+ 	text-align: right;
+ }
+
+ul{
+	padding-left: 0px;
+	list-style-type: none;
+}
+
+
+ a {
+    color: #40E0D0; 
+    text-decoration: none;
+
+ }
+ 
+ a:visited {
+    color: #2F4F4F; 
+ } 
+ 
+ a:hover {
+    color: #FF0000; 
+   
+ }
+
+a[target="_blank"] {
+
+	text-decoration: underline;
+     
+ }
+
