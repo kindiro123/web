@@ -1,0 +1,8 @@
+1) в методе unenroll удаляется из LinkedList тип int
+Исправление:
+53: waitingList.remove(studentId); =>  waitingList.remove(new Integer(studentId));
+56: enrollList.remove(studentId);  =>  enrollList.remove(new Integer(studentId));
+
+2) в методе enroll неправильная проверка на запись в список
+40:  if (hasWaitingList()) {   =>   if (isFullyEnrolled()) {
+
